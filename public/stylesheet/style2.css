@@ -1,0 +1,31 @@
+body{
+    margin: 4%;
+}
+
+h1{
+    color: darkslategray;
+}
+a{
+    color: darkslategrey;
+    font-size: medium;
+}
+
+input[type='text']{
+    width: 25%;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid lightslategrey;
+    margin: 5px;
+    padding: 5px;
+}
+
+#submitBtn{
+     width: 26%;
+     height: auto;
+     border-radius: 4px;
+     
+     margin: 5px;
+     padding: 5px;
+     background-color: lightslategray;
+     color: white;
+}

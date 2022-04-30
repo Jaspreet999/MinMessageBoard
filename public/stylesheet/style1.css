@@ -1,0 +1,32 @@
+body{
+    margin: 4%;
+    color: darkslategrey;
+    
+}
+
+a{
+    color: darkslategrey;
+    font-size: medium;
+}
+
+li{
+    width: 25%;
+    height: auto;
+    border-radius: 2%;
+    padding: 1%;
+    list-style-type: none;
+    box-shadow: 4px 4px 4px 4px lightsteelblue;
+    transition: width 2s ;
+    margin-bottom: 1%;
+}
+
+li:hover{
+    width: 26%;
+}
+
+sub{
+    color: lightslategray;
+}
+b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
