@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>home page</title>
+        <meta charset="utf-08"/>
+
+        <link rel="stylesheet" href="/stylesheet/style2.css" />
+    </head>
+   <body>
+        <form action="/delete" method="POST">
+        <a href="/">->back</a>
+        <br>
+        <h1>Delete Message</h1>
+        <input type="text" id="fname" name="messageAuthor" placeholder="Name"> 
+        <br>
+        <input type="password" id='message' name="adminPassword" placeholder="Enter admin password">
+        <br>
+        <input type="submit" id="submitBtn" name="submit" value="Delete">
+
+    </form>
+
+    <b ><%= error %></b>
+</body>
+</html>

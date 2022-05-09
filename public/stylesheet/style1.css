@@ -1,7 +1,6 @@
 body{
     margin: 4%;
     color: darkslategrey;
-    
 }
 
 a{
@@ -21,7 +20,7 @@ li{
 }
 
 li:hover{
-    width: 26%;
+    border: 2px solid white;
 }
 
 sub{
