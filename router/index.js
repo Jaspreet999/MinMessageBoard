@@ -46,7 +46,7 @@ router.get('/delete',(req,res,next)=>{
 
 router.post('/new',(req,res,next)=>{
     if(req.body){
-        db.messagesSchema.create(
+        messagesSchema.create(
             {
             date:new Date(),
             name:req.body.messageAuthor,
